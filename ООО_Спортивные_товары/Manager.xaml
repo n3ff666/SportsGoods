@@ -1,0 +1,216 @@
+﻿<Window x:Class="ООО_Спортивные_товары.Manager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ООО_Спортивные_товары"
+        mc:Ignorable="d"
+        Title="Manager"
+        Height="600"
+        Width="800"
+        MinHeight="600"
+        MinWidth="800">
+    <Grid>
+        <Grid>
+            <Border BorderBrush="#FF498C51"
+                    Background="#FF498C51"
+                    BorderThickness="1"
+                    HorizontalAlignment="Center"
+                    Height="97"
+                    VerticalAlignment="Top"
+                    Width="4594">
+                <Image Width="80"
+                       Height="80"
+                       Margin="359,8,360,7"
+                       Source="/logo.png" />
+            </Border>
+
+            <Border BorderBrush="Black"
+                    BorderThickness="1"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Height="125"
+                    Width="732"
+                    Margin="0,136,0,0">
+                <Grid>
+                    <Label Content="Наименование товара"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontWeight="Bold"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,9,0,0" />
+                    <Label Content="Описание товара"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,35,0,0" />
+                    <Label Content="Производитель:"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,61,0,0" />
+                    <Label Content="Цена:"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,87,0,0" />
+                    <Image HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="80"
+                           Width="80"
+                           Source="/F735B6.jpg"
+                           Margin="96,0,0,0" />
+                    <Label Content="В наличии"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           Margin="469,43,0,0"
+                           FontFamily="Comic Sans MS" />
+                </Grid>
+            </Border>
+
+            <Border BorderBrush="Black"
+                    BorderThickness="1"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Height="125"
+                    Width="732"
+                    Margin="0,266,0,0">
+                <Grid>
+                    <Label Content="Наименование товара"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontWeight="Bold"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,9,0,0" />
+                    <Label Content="Описание товара"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,35,0,0" />
+                    <Label Content="Производитель:"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,61,0,0" />
+                    <Label Content="Цена:"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,87,0,0" />
+                    <Image HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="80"
+                           Width="80"
+                           Source="/D830R5.jpg"
+                           Margin="96,0,0,0" />
+                    <Label Content="В наличии"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           Margin="469,43,0,0"
+                           FontFamily="Comic Sans MS" />
+                </Grid>
+            </Border>
+
+            <Border BorderBrush="Black"
+                    BorderThickness="1"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Height="125"
+                    Width="732"
+                    Margin="0,396,0,0">
+                <Grid>
+                    <Label Content="Наименование товара"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontWeight="Bold"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,9,0,0" />
+                    <Label Content="Описание товара"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,35,0,0" />
+                    <Label Content="Производитель:"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,61,0,0" />
+                    <Label Content="Цена:"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontFamily="Comic Sans MS"
+                           Margin="212,87,0,0" />
+                    <Image HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Height="80"
+                           Width="80"
+                           Source="/D648N7.jpg"
+                           Margin="96,0,0,0" />
+                    <Label Content="В наличии"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           Margin="469,43,0,0"
+                           FontFamily="Comic Sans MS" />
+                </Grid>
+            </Border>
+            <Button Content="Назад"
+                    HorizontalAlignment="Center"
+                    Margin="0,542,0,0"
+                    VerticalAlignment="Top"
+                    Width="172"
+                    Height="32"
+                    BorderBrush="#FF76E383"
+                    Background="#FF76E383"
+                    FontFamily="Comic Sans MS"
+                    Click="Button_Click">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius"
+                                Value="10,10,10,10" />
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+        </Grid>
+        <Label Content="ФИО пользователя"
+               HorizontalAlignment="Right"
+               Margin="0,105,35,0"
+               VerticalAlignment="Top"
+               FontFamily="Comic Sans MS" />
+        <Button Content="Отсортировать"
+                HorizontalAlignment="Left"
+                Margin="41,108,0,0"
+                VerticalAlignment="Top"
+                Background="#FF76E383"
+                BorderBrush="#FF76E383"
+                FontFamily="Comic Sans MS"
+                Width="126" Click="Button_Click_2">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius"
+                            Value="10,10,10,10" />
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Поиск"
+                HorizontalAlignment="Left"
+                Margin="172,108,0,0"
+                VerticalAlignment="Top"
+                Background="#FF76E383"
+                BorderBrush="#FF76E383"
+                FontFamily="Comic Sans MS"
+                Width="87" Click="Button_Click_1">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius"
+                            Value="10,10,10,10" />
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Content="3 из 10"
+               HorizontalAlignment="Center"
+               Margin="0,105,0,0"
+               VerticalAlignment="Top"
+               FontFamily="Comic Sans MS" />
+    </Grid>
+</Window>
